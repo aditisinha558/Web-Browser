@@ -41,7 +41,7 @@ class WebBrowser:
         self.quit_button.grid(row=2, column=0, pady=10)
 
         # Web Browser Name Label
-        web_browser_name = tk.Label(self.master, text="Echo", font=('Script MT Bold', 36, 'italic', 'underline'), fg='#4CAF50')
+        web_browser_name = tk.Label(self.master, text="Spark", font=('Script MT Bold', 36, 'italic', 'underline'), fg='#4CAF50')
         web_browser_name.grid(row=3, column=0, pady=10)
 
     def open_url(self):
